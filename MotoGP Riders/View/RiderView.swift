@@ -8,10 +8,9 @@
 
 import UIKit
 
-class RiderView: UIView {
+ final class RiderView: UIView {
     
     private var valueObservation: NSKeyValueObservation!
-
     private var riderImageView: UIImageView!
     private var indicatorView: UIActivityIndicatorView!
     

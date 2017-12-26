@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HorizontalScrollerView : UIView  {
+final class HorizontalScrollerView : UIView  {
     weak var dataSource: HorizontalScrollerViewDataSource?
     weak var delegate: HorizontalScrollerViewDelegate?
     

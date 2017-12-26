@@ -12,7 +12,7 @@ private enum Constants {
     static let CellIdentifier = "Cell"
 }
 
-class MainViewController: UIViewController {
+final class MainViewController: UIViewController {
     
     @IBOutlet weak var horizontalScrollerView: HorizontalScrollerView!
     @IBOutlet var tableView: UITableView!
